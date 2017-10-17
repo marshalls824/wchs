@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+	text-align: center;
+	line-height: 2.2em;
+	position: static;
+	background-color: rgba(197,179,88,1.00)
+}
+
+body p {
+	font-size: xx-large;
+	font-weight: 800;
+	text-decoration: underline;
+	text-indent: 0;
+	text-shadow: 0 0px 0px;
+	text-transform: uppercase;
+}
+
+
+
+
+body input {
+	width: auto;
+	display: table-row-group;
+	position: relative;
+	bottom: -5em;
+	top: 5em;
+	padding-top: em;
+	min-height: 20px;
+	text-align: left;
+	float: none;
+	left: 0pt;
+	margin-left: 0px;
+}
+.twitter-timeline {
+	margin: 299px auto auto;
+	padding-top: 0px;
+	right: 0em;
+	width: auto;
+	max-width: none;
+	display: inline-block;
+	height: auto;
+	min-width: 0px;
+	min-height: 0px;
+	max-height: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: static;
+	padding-right: 0px;
+	padding-left: 0px;
+	left: auto;
+	bottom: auto;
+	float: right;
+}
+video {
+	position: relative;
+
+}
+
+body div a {
+	margin: auto;
+	bottom: auto;
+	padding: auto;
+	text-align: center;
+	vertical-align: -18pt;
+	position: relative;
+}
+
+#sidebar
+{
+	float: right;
+	width: 20em;
+	padding-right: 0px;
+	position: relative;
+	display: inline-block;
+	margin-top: -557px;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	position: relative;
+	right: -776px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+	margin-right: -1px;
+}
+banners {
+
+}
+.about {
+	font-size: 17px;
+
+	
+; 	text-decoration: none;
+}

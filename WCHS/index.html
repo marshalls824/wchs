@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WCHS</title>
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+	<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="http://chs.citrusschools.org/">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="CHSnews.html">Cast</a></li>
+</ul>
+</div>
+	<div>
+<p>Welcome to WCHS News </p>
+	</div>
+	
+
+<div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<iframe id="youtube_video" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+
+<script>
+var channelID = "UCQ8Lzvb0mSz0p5XAmZoW1zw";
+$.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3D'+channelID, function(data) {
+   var link = data.items[0].link;
+   var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
+});
+</script>	
+	
+</div>
+	<div><img src="p-ics/SpectrumSports.jpg" width="370" height="124" alt=""/>
+<img src="p-ics/banner-fspa.jpg" width="370" height="124" alt=""/></div>
+<div id="sidebar"><br>
+<a class="twitter-timeline" data-width="300" data-height="900" data-theme="dark" href="https://twitter.com/wchsnewsch4">Tweets by wchsnewsch4</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
